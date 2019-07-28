@@ -1,0 +1,25 @@
+.row-center{
+    justify-content: center;
+    margin-top: 20px;
+}
+.grid{
+    display: grid;
+    margin-top:20px;
+}
+ul{
+    list-style: none;
+}
+
+/* s_prints */
+.grid-thumbs{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+}
+.grid-thumbs img{
+    display: block;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4)
+}
+.grid-thumbs .bk-image{
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0)
+}
